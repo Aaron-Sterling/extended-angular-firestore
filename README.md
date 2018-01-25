@@ -1,12 +1,12 @@
 # extended-angular-firestore
 Lightweight extension of Angular Firestore. Provides a more intuitive API. Create, Update, Insert-or-Update (Upsert), Check for Existence, Download Once, Download and listen for changes.
 
-Next page: API
-
 1. [Installation](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/README.md#installation)
 2. [Sample Usage](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/README.md#sample-usage)
 3. [Design Concept](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/README.md#design-concept)
 4. [Setup](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/README.md#setup)
+
+Next page: [API](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/docs/api.md)
 
 ## Installation
 
@@ -81,4 +81,4 @@ export class AppModule { }
 
 AngularFire2 is a peer dependency of ExtendedAngularFirestore, so if you use npm to install this library, angularfire2 will be available to import from as well.
 
-Next page: API
+Next page: [API](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/docs/api.md)
