@@ -3,6 +3,11 @@ Lightweight extension of Angular Firestore. Provides a more intuitive API. Creat
 
 Next page: API
 
+1. [Installation](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/README.md#installation)
+2. [Sample Usage](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/README.md#sample-usage)
+3. [Design Concept](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/README.md#design-concept)
+4. [Setup](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/README.md#setup)
+
 ## Installation
 
 ```npm install extended-angular-firestore --save```
