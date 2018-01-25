@@ -1,5 +1,5 @@
 # extended-angular-firestore
-Lightweight extension of Angular Firestore. Provides a more intuitive API. Create, Update, Add-or-Update (Upsert), Check for Existence, Download Once, Download and listen for changes.
+Lightweight extension of Angular Firestore. Provides a more intuitive API. Create, Update, Insert-or-Update (Upsert), Check for Existence, Download Once, Download and listen for changes.
 
 Next page: API
 
@@ -32,6 +32,8 @@ export class Example {
 The goal of the API is to help the programmer manage Observable Subscriptions, so you only ask for exactly what you want. You can either ask to download a document or a collection exactly once, in which case you get back a Promise that resolves to the value of the document you are requesting.  Or you can listen to a document or a collection, in which case you get back an Observable you can subscribe to (and might have to unsubscribe from). This structure has helped me avoid annoying double-request errors where I failed to unsubscribe from a stream I hadn't realized I was still subscribed to.
 
 This package also handles existence/nonexistence gracefully, which has been a weakness of both Firebase and Firestore in the past. To create or modify a document, simply use the Upsert method, which does the existence checking for you.
+
+Finally, the API extension is lightweight -- about 100 lines of TypeScript and three RXJS operators (which AngularFire may already need).
 
 ## Setup
 
