@@ -1,5 +1,11 @@
 # API
 
+1. [Create / Update](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/docs/api.md#create--update)
+2. [Delete](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/docs/api.md#delete)
+3. [Existence check](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/docs/api.md#existence-check)
+4. [Download document](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/docs/api.md#download-document)
+5. [Collections](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/docs/api.md#collections)
+
 Previous page: [Installation and Setup](https://github.com/Aaron-Sterling/extended-angular-firestore/blob/master/README.md)
 
 ## Create / Update
